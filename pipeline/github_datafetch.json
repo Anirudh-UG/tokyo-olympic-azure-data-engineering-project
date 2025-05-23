@@ -1,6 +1,7 @@
 {
-	"name": "pipeline1",
+	"name": "github_datafetch",
 	"properties": {
+		"description": "This pipeline is used to fetch data from a forked git repository. Note that the folder had to be created manually in the storage account and filled with some dummy data, or else an exception would be thrown.",
 		"activities": [
 			{
 				"name": "Athletes",
